@@ -35,6 +35,7 @@ S3Zipper.prototype = {
         this.awsConfig = awsConfig;
         var self = this
         self.s3bucket = new AWS.S3({
+            apiVersion: "2006-03-01" ,
             params: {
                 Bucket: self.awsConfig.bucket
             }
