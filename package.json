@@ -1,6 +1,6 @@
 {
-  "name": "aws-s3-zipper",
-  "version": "1.4.0",
+  "name": "aws-s3-zipper-without-aws-cred",
+  "version": "1.0.0",
   "description": "Zip files from and to an Amazon AWS S3 Bucket directory as a stream, file or fragments. Allows filtering files.",
   "main": "index.js",
   "dependencies": {
@@ -9,7 +9,7 @@
     "aws-sdk": "2.814.*",
     "@auth0/s3": "latest"
   },
-  "repository": "https://github.com/DanielHindi/aws-s3-zipper.git",
+  "repository": "https://github.com/AbhishekHarshvardhan/aws-s3-zipper-without-aws-cred",
   "keywords": [
     "zip",
     "amazon",
